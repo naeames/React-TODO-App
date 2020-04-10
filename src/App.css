@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
-}
+.main-header{display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #6496E5;
+    padding: 40px;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body,html
+{padding: 0;margin: 0;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+h1{ color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+h4{ color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;}
 
-.App-link {
-  color: #61dafb;
-}
+.input-text
+{width: 95%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    padding-left: 10px;}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.btn-add{
+    background-color: inherit;
+    border : solid;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-weight: bold;}
+
+.paragraphe{ color:gray; font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;}
+
+.btn {padding:5px;margin: 10px;}
